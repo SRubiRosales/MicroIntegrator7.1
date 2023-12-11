@@ -1,0 +1,6 @@
+target/
+metadata/
+.meta
+resources/
+*.jar
+.settings/
