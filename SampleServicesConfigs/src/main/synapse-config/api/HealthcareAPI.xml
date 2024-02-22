@@ -5,13 +5,12 @@
             <log description="Request Log" level="custom">
                 <property name="Log property message" value="Welcome to HealthcareService"/>
             </log>
-            <send>
+            <call>
                 <endpoint key="QueryDoctorEP"/>
-            </send>
+            </call>
+            <respond/>
         </inSequence>
-        <outSequence>
-            <send/>
-        </outSequence>
+        <outSequence/>
         <faultSequence/>
     </resource>
 </api>
